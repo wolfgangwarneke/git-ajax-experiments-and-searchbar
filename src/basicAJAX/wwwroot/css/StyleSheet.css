@@ -1,0 +1,31 @@
+﻿body {
+}
+#nameQuery {
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.3);
+    padding: 3px;
+}
+#searchResultBox {
+    display: none;
+    
+}
+.autoComplete {
+    position: absolute;
+    display: inherit;
+    list-style: none;
+    padding: 0;
+    padding-bottom: 1px;
+    margin: 0;
+    border: 2px solid lightgray;
+    border-top: hidden;
+    width: 129px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.autoComplete li:hover {
+    font-weight: bold;
+    background-color: rgba(230,230,250,0.95);
+    cursor: pointer;
+}  
